@@ -1,0 +1,32 @@
+pySPLIT
+=======
+
+This project is an unofficial Python reimplementation ("port") of the SPLIT
+R package:
+
+    SPLIT: Spatial Purification of Layered Intracellular Transcripts
+    Copyright (c) Mariia Bilous and contributors
+    Biomedical Data Science Center, CHUV / University of Lausanne
+    https://github.com/bdsc-tds/SPLIT
+    Licensed under GPL (>= 3)
+
+The SPLIT method and algorithm are the work of its original authors, published
+as:
+
+    Bilous M, Buszta D, Bac J, Kang S, Dong Y, Tissot S, Andre S,
+    Alexandre-Gaveta M, Voize C, Peters S, Homicsko K, Gottardo R.
+    "Resolving sensitivity, specificity and signal contamination in Xenium
+    spatial transcriptomics." Nature Methods (2026).
+    doi:10.1038/s41592-026-03089-8
+
+pySPLIT contributes only a translation of that R code into Python, together
+with an AnnData-based interface, a sparse-aware reimplementation of the core
+purification loop, and tests. It is not affiliated with or endorsed by the
+original authors. The R package remains the reference implementation.
+
+Users of pySPLIT should always cite the paper above for the method. This
+implementation may additionally be cited as software; see CITATION.cff and the
+"Citation" section of README.md.
+
+As a derivative of GPL-licensed work, pySPLIT is distributed under the same
+terms: GPL-3.0-or-later. See LICENSE.

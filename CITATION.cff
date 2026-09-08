@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+title: "pySPLIT: a Python implementation of SPLIT for spatial transcript purification"
+message: >-
+  If you use pySPLIT, please cite BOTH the original SPLIT paper (which describes
+  the method) and this software (which provides the Python implementation).
+  The preferred-citation below is the original paper.
+type: software
+authors:
+  - given-names: Philipp
+    family-names: Putze
+    email: philipp.putze@tum.de
+repository-code: "https://github.com/philinscience/pySPLIT"
+abstract: >-
+  pySPLIT is a Python implementation of SPLIT (Spatial Purification of Layered
+  Intracellular Transcripts) for imaging-based spatial transcriptomics such as
+  10x Xenium. It removes transcript spillover between segmented cells using
+  deconvolution weights and a single-cell reference, and integrates with the
+  scanpy/AnnData ecosystem. The method is described in Bilous et al.,
+  Nature Methods (2026); this package reimplements it in Python with a
+  sparse-aware purification core and an annotation-method agnostic interface.
+keywords:
+  - spatial transcriptomics
+  - Xenium
+  - cell segmentation
+  - contamination
+  - deconvolution
+  - RCTD
+  - scanpy
+license: GPL-3.0-or-later
+version: 0.3.0
+references:
+  - type: article
+    title: >-
+      Resolving sensitivity, specificity and signal contamination in Xenium
+      spatial transcriptomics
+    authors:
+      - given-names: Mariia
+        family-names: Bilous
+      - given-names: Daria
+        family-names: Buszta
+      - given-names: Jonathan
+        family-names: Bac
+      - given-names: Senbai
+        family-names: Kang
+      - given-names: Yixing
+        family-names: Dong
+      - given-names: Stephanie
+        family-names: Tissot
+      - given-names: Sylvie
+        family-names: Andre
+      - given-names: Marina
+        family-names: Alexandre-Gaveta
+      - given-names: Christel
+        family-names: Voize
+      - given-names: Solange
+        family-names: Peters
+      - given-names: Krisztian
+        family-names: Homicsko
+      - given-names: Raphael
+        family-names: Gottardo
+    journal: Nature Methods
+    year: 2026
+    doi: 10.1038/s41592-026-03089-8
+    notes: The original SPLIT method and R package. Cite this for the method.
+preferred-citation:
+  type: article
+  title: >-
+    Resolving sensitivity, specificity and signal contamination in Xenium
+    spatial transcriptomics
+  authors:
+    - given-names: Mariia
+      family-names: Bilous
+    - given-names: Daria
+      family-names: Buszta
+    - given-names: Jonathan
+      family-names: Bac
+    - given-names: Senbai
+      family-names: Kang
+    - given-names: Yixing
+      family-names: Dong
+    - given-names: Stephanie
+      family-names: Tissot
+    - given-names: Sylvie
+      family-names: Andre
+    - given-names: Marina
+      family-names: Alexandre-Gaveta
+    - given-names: Christel
+      family-names: Voize
+    - given-names: Solange
+      family-names: Peters
+    - given-names: Krisztian
+      family-names: Homicsko
+    - given-names: Raphael
+      family-names: Gottardo
+  journal: Nature Methods
+  year: 2026
+  doi: 10.1038/s41592-026-03089-8

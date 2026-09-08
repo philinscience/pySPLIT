@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+
+# tutorial downloads / intermediates
+pysplit_tutorial/
+.ipynb_checkpoints/
